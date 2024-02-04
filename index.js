@@ -28,7 +28,7 @@ client.on('ready', async () => {
     .setURL('https://www.youtube.com/watch?v=zdfacEpzDIA') //Must be a youtube video link 
     .setState('confusion')
     .setName('xanxietys')
-    .setDetails('entry log')
+    .setDetails('i dont like u')
 
 
  .setAssetsLargeImage('https://cdn.discordapp.com/attachments/852639023482798161/1190099463784644730/giphy_2.gif?ex=65a0917f&is=658e1c7f&hm=21fa458206b16dd6a0074a0fc494067759a96a805b6d676475c58d84e3b0d713&') //You can put links in tenor or discord and etc.
