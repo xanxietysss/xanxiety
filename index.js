@@ -31,9 +31,9 @@ client.on('ready', async () => {
     .setDetails('xanax')
 
 
- .setAssetsLargeImage('https://cdn.discordapp.com/attachments/852639023482798161/1190099463784644730/giphy_2.gif?ex=65a0917f&is=658e1c7f&hm=21fa458206b16dd6a0074a0fc494067759a96a805b6d676475c58d84e3b0d713&') //You can put links in tenor or discord and etc.
+ .setAssetsLargeImage('https://cdn.discordapp.com/attachments/867485720012914689/1212836897139728434/jaydes-jaydeschrist.gif?ex=65f34961&is=65e0d461&hm=44f90c6f2c5fb94e83cbaea5d92a3836db80c832231a2e1d9118bd9b11461292&') //You can put links in tenor or discord and etc.
     .setAssetsLargeText('entry four') //Text when you hover the Large image
-    .setAssetsSmallImage('https://cdn.discordapp.com/attachments/852639023482798161/1190100720532340866/d309ca96cbbd106dcc3b9549219152d1.gif?ex=65a092aa&is=658e1daa&hm=feadc1be08b2f31efdb41a0a9ab90034be6122870179106b7450eccd1b2bfc26&') //You can put links in tenor or discord and etc.
+    .setAssetsSmallImage('https://cdn.discordapp.com/attachments/867485720012914689/1212837344177037442/icegif-279.gif?ex=65f349cc&is=65e0d4cc&hm=97d345c677fd520ea34136ab5867b90445e6179cffa34e0c92a87707edce2135&') //You can put links in tenor or discord and etc.
     .setAssetsSmallText('ok') //Text when you hover the Small image
     .addButton('percs', 'https://www.youtube.com/watch?v=72noANFOhdA')
     .addButton('xans', 'https://www.youtube.com/watch?v=Gbqa9n1XOes');
