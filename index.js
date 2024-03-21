@@ -28,12 +28,12 @@ client.on('ready', async () => {
     .setURL('https://www.youtube.com/watch?v=zdfacEpzDIA') //Must be a youtube video link 
     .setState('confusion')
     .setName('xanxietys')
-    .setDetails('xanax')
+    .setDetails('entry log')
 
 
- .setAssetsLargeImage('https://cdn.discordapp.com/attachments/867485720012914689/1212836897139728434/jaydes-jaydeschrist.gif?ex=65f34961&is=65e0d461&hm=44f90c6f2c5fb94e83cbaea5d92a3836db80c832231a2e1d9118bd9b11461292&') //You can put links in tenor or discord and etc.
+ .setAssetsLargeImage('https://cdn.discordapp.com/attachments/867485720012914689/1220193103965589624/jaydes-jaydeschrist.gif?ex=660e0c62&is=65fb9762&hm=488fab1f91f5069e43f60ce702b448374a73103981d83f782d56fceaa162318e&') //You can put links in tenor or discord and etc.
     .setAssetsLargeText('entry four') //Text when you hover the Large image
-    .setAssetsSmallImage('https://cdn.discordapp.com/attachments/867485720012914689/1212837344177037442/icegif-279.gif?ex=65f349cc&is=65e0d4cc&hm=97d345c677fd520ea34136ab5867b90445e6179cffa34e0c92a87707edce2135&') //You can put links in tenor or discord and etc.
+    .setAssetsSmallImage('https://cdn.discordapp.com/attachments/867485720012914689/1220193315920679023/icegif-282.gif?ex=660e0c94&is=65fb9794&hm=f6d749e1e9cb5c96b672baa4fa95d55bac91e657b0462a8727b775c8251a13da&') //You can put links in tenor or discord and etc.
     .setAssetsSmallText('ok') //Text when you hover the Small image
     .addButton('percs', 'https://www.youtube.com/watch?v=72noANFOhdA')
     .addButton('xans', 'https://www.youtube.com/watch?v=Gbqa9n1XOes');
