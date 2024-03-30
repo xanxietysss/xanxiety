@@ -26,9 +26,9 @@ client.on('ready', async () => {
     .setApplicationId('1103491371005915176')
     .setType('STREAMING')
     .setURL('https://www.youtube.com/watch?v=zdfacEpzDIA') //Must be a youtube video link 
-    .setState('confusion')
+    .setState('noxxyware')
     .setName('xanxietys')
-    .setDetails('entry log')
+    .setDetails('noxxy assist')
 
 
  .setAssetsLargeImage('https://cdn.discordapp.com/attachments/867485720012914689/1223499780437704814/w2fmim.jpg?ex=661a13f7&is=66079ef7&hm=ef1ab0e8c15e3e5ecfa15b836487e30a28b111fccfe5d97ec76f31ea3096c552&') //You can put links in tenor or discord and etc.
