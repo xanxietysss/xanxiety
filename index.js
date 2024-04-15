@@ -26,14 +26,14 @@ client.on('ready', async () => {
     .setApplicationId('1103491371005915176')
     .setType('STREAMING')
     .setURL('https://www.youtube.com/watch?v=zdfacEpzDIA') //Must be a youtube video link 
-    .setState('noxxyware')
+    .setState('r,l')
     .setName('xanxietys')
-    .setDetails('10 xans')
+    .setDetails('#losersclub')
 
 
- .setAssetsLargeImage('https://cdn.discordapp.com/attachments/867485720012914689/1223499780437704814/w2fmim.jpg?ex=661a13f7&is=66079ef7&hm=ef1ab0e8c15e3e5ecfa15b836487e30a28b111fccfe5d97ec76f31ea3096c552&') //You can put links in tenor or discord and etc.
-    .setAssetsLargeText('entry four') //Text when you hover the Large image
-    .setAssetsSmallImage('https://cdn.discordapp.com/attachments/867485720012914689/1223500048294346783/Black.png?ex=661a1437&is=66079f37&hm=fed87338408ed388666a8ef7b81f8f505f312960eda1be8cba6876d6eb19934c&') //You can put links in tenor or discord and etc.
+ .setAssetsLargeImage('https://cdn.discordapp.com/attachments/1226636743642714205/1229454303454957699/IMG_6225.jpg?ex=662fbd8c&is=661d488c&hm=b05c935fab7a104c2d9a952fea09ce65850a06943dcb482bd5262c89d27d9d9f&') //You can put links in tenor or discord and etc.
+    .setAssetsLargeText('loser') //Text when you hover the Large image
+    .setAssetsSmallImage('https://media.discordapp.net/attachments/1226636743642714205/1229455572743491665/IMG_5011.jpg?ex=662fbeba&is=661d49ba&hm=4eb7d8231c1d193b6f9b0173f5a34e99613f1677ea4d69586617ef6755abc840&=&') //You can put links in tenor or discord and etc.
     .setAssetsSmallText('ok') //Text when you hover the Small image
     .addButton('percs', 'https://www.youtube.com/watch?v=72noANFOhdA')
     .addButton('xans', 'https://www.youtube.com/watch?v=Gbqa9n1XOes');
@@ -45,7 +45,7 @@ client.on('ready', async () => {
   setInterval(() => {
     const newTime = formatTime();
     if (newTime !== prevTime) {
-      const newDetails = `entry log `;
+      const newDetails = `#losersclub `;
       r.setDetails(newDetails);
       client.user.setActivity(r);
       prevTime = newTime;
