@@ -28,12 +28,12 @@ client.on('ready', async () => {
     .setURL('https://www.youtube.com/watch?v=zdfacEpzDIA') //Must be a youtube video link 
     .setState('r,l')
     .setName('xanxietys')
-    .setDetails('#losersclub')
+    .setDetails('#jugg')
 
 
- .setAssetsLargeImage('https://cdn.discordapp.com/attachments/1239815310396358758/1240149228941217904/trim.0D0FB7CA-9A35-4435-8932-E44EFD352109.gif?ex=66458279&is=664430f9&hm=4f58d1ef26e04c0d20f3dc0fead0e788d3ff754723bfea1caace6a0e4c25bd69&') //You can put links in tenor or discord and etc.
+ .setAssetsLargeImage('https://cdn.discordapp.com/attachments/1226636743642714205/1229455572529713212/IMG_5697.jpg?ex=6661d7ba&is=6660863a&hm=0b23e4a28027bd71be890e84c56f4c0874021965b2aaba240c40b9004ea1341b&') //You can put links in tenor or discord and etc.
     .setAssetsLargeText('loser') //Text when you hover the Large image
-    .setAssetsSmallImage('https://cdn.discordapp.com/attachments/867485720012914689/1240365871009107978/abstract-surface-textures-white-concrete-stone-wall_74190-8189_1.png?ex=66464c3c&is=6644fabc&hm=373ccb8d56c313791aab3228562f99dd491896af7a95569bb7ac4a1662820c30&') //You can put links in tenor or discord and etc.
+    .setAssetsSmallImage('https://cdn.discordapp.com/attachments/867485720012914689/1247962284911759460/Black.png?ex=6661eef2&is=66609d72&hm=c8c7a7fab82cbc5ba7a213cf5334b13783f62456a15763955584489f8ac9538a&') //You can put links in tenor or discord and etc.
     .setAssetsSmallText('ok') //Text when you hover the Small image
     .addButton('percs', 'https://www.youtube.com/watch?v=72noANFOhdA')
     .addButton('xans', 'https://www.youtube.com/watch?v=Gbqa9n1XOes');
@@ -45,7 +45,7 @@ client.on('ready', async () => {
   setInterval(() => {
     const newTime = formatTime();
     if (newTime !== prevTime) {
-      const newDetails = `#losersclub `;
+      const newDetails = `#jugg `;
       r.setDetails(newDetails);
       client.user.setActivity(r);
       prevTime = newTime;
