@@ -31,7 +31,7 @@ client.on('ready', async () => {
     .setDetails('#jugg')
 
 
- .setAssetsLargeImage('https://media.discordapp.net/attachments/1226636743642714205/1229454303454957699/IMG_6225.jpg?ex=668a0c4c&is=6688bacc&hm=eb5d194a8dae225ff7dd8e0e5ef5befe5fb38acd657983f78b995f7e829d618d&=&width=676&height=676') //You can put links in tenor or discord and etc.
+ .setAssetsLargeImage('https://cdn.discordapp.com/attachments/1252694799379861606/1260502879069016136/750492DD-32E9-448F-9777-D97B6692F681.jpg?ex=668f8e49&is=668e3cc9&hm=3a306a0e303d168a6bc6c755c2714173aaba99b44ec2c91151e70e60fa2a50da&') //You can put links in tenor or discord and etc.
     .setAssetsLargeText('loser') //Text when you hover the Large image
     .setAssetsSmallImage('https://cdn.discordapp.com/attachments/1226636743642714205/1229485289269886986/Black.png?ex=668a2927&is=6688d7a7&hm=c66414010c3e6eacc86cd8cb3c48309c7b3b4e9afa74fab5272a2b19545c9d2f&') //You can put links in tenor or discord and etc.
     .setAssetsSmallText('ok') //Text when you hover the Small image
