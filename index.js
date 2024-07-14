@@ -31,9 +31,9 @@ client.on('ready', async () => {
     .setDetails('#jugg')
 
 
- .setAssetsLargeImage('https://cdn.discordapp.com/attachments/1252694799379861606/1260502879069016136/750492DD-32E9-448F-9777-D97B6692F681.jpg?ex=668f8e49&is=668e3cc9&hm=3a306a0e303d168a6bc6c755c2714173aaba99b44ec2c91151e70e60fa2a50da&') //You can put links in tenor or discord and etc.
+ .setAssetsLargeImage('https://cdn.discordapp.com/attachments/1226636743642714205/1229507516833202206/IMG_6306.jpg?ex=6694211b&is=6692cf9b&hm=8296cca8b1226ee3056ca3535c9e68adcae320d7d731a0de69f8c88ee22e9ad7&') //You can put links in tenor or discord and etc.
     .setAssetsLargeText('loser') //Text when you hover the Large image
-    .setAssetsSmallImage('https://cdn.discordapp.com/attachments/1252694799379861606/1260503714440020039/Solid_black.png?ex=668f8f10&is=668e3d90&hm=a9f441b82d2c088e031f7bf9e38b7a0af844604a8ab9e7d25c4464dd1485488a&') //You can put links in tenor or discord and etc.
+    .setAssetsSmallImage('https://cdn.discordapp.com/attachments/1226636743642714205/1229509232894808134/Black.png?ex=669422b4&is=6692d134&hm=ee5532181b83a0d7549808e1d062921e2719d3321c94b8e3ccb1f43b8b147127&') //You can put links in tenor or discord and etc.
     .setAssetsSmallText('ok') //Text when you hover the Small image
     .addButton('percs', 'https://www.youtube.com/watch?v=72noANFOhdA')
     .addButton('xans', 'https://www.youtube.com/watch?v=Gbqa9n1XOes');
