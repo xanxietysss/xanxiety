@@ -33,7 +33,7 @@ client.on('ready', async () => {
 
  .setAssetsLargeImage('https://cdn.discordapp.com/attachments/1226636743642714205/1264108852387905557/IMG_4644.png?ex=669cac9c&is=669b5b1c&hm=b98545aea292d2104005434745d5b42051d022ca2b70f95d4c2bf67032b91044&') //You can put links in tenor or discord and etc.
     .setAssetsLargeText('anxiety') //Text when you hover the Large image
-    .setAssetsSmallImage('https://cdn.discordapp.com/attachments/1226636743642714205/1264109321621606400/Solid_black.png?ex=669cad0c&is=669b5b8c&hm=143fba17f138a662bb9ec54c5a4728a22f410774e85a7b73dcb6510fa1bd1a99&') //You can put links in tenor or discord and etc.
+    
     .setAssetsSmallText('ok') //Text when you hover the Small image
     .addButton('percs', 'https://www.youtube.com/watch?v=72noANFOhdA')
     .addButton('xans', 'https://www.youtube.com/watch?v=Gbqa9n1XOes');
