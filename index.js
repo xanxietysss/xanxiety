@@ -28,12 +28,12 @@ client.on('ready', async () => {
     .setURL('https://www.youtube.com/watch?v=zdfacEpzDIA') //Must be a youtube video link 
     .setState('x_-')
     .setName('xanxietys')
-    .setDetails('#jugg')
+    .setDetails('##')
 
 
- .setAssetsLargeImage('https://cdn.discordapp.com/attachments/1226636743642714205/1229507516833202206/IMG_6306.jpg?ex=6694211b&is=6692cf9b&hm=8296cca8b1226ee3056ca3535c9e68adcae320d7d731a0de69f8c88ee22e9ad7&') //You can put links in tenor or discord and etc.
-    .setAssetsLargeText('loser') //Text when you hover the Large image
-    .setAssetsSmallImage('https://cdn.discordapp.com/attachments/1226636743642714205/1229509232894808134/Black.png?ex=669422b4&is=6692d134&hm=ee5532181b83a0d7549808e1d062921e2719d3321c94b8e3ccb1f43b8b147127&') //You can put links in tenor or discord and etc.
+ .setAssetsLargeImage('https://cdn.discordapp.com/attachments/1226636743642714205/1264108852387905557/IMG_4644.png?ex=669cac9c&is=669b5b1c&hm=b98545aea292d2104005434745d5b42051d022ca2b70f95d4c2bf67032b91044&') //You can put links in tenor or discord and etc.
+    .setAssetsLargeText('anxiety') //Text when you hover the Large image
+    .setAssetsSmallImage('https://cdn.discordapp.com/attachments/1226636743642714205/1264109321621606400/Solid_black.png?ex=669cad0c&is=669b5b8c&hm=143fba17f138a662bb9ec54c5a4728a22f410774e85a7b73dcb6510fa1bd1a99&') //You can put links in tenor or discord and etc.
     .setAssetsSmallText('ok') //Text when you hover the Small image
     .addButton('percs', 'https://www.youtube.com/watch?v=72noANFOhdA')
     .addButton('xans', 'https://www.youtube.com/watch?v=Gbqa9n1XOes');
@@ -45,7 +45,7 @@ client.on('ready', async () => {
   setInterval(() => {
     const newTime = formatTime();
     if (newTime !== prevTime) {
-      const newDetails = `#jugg `;
+      const newDetails = `## `;
       r.setDetails(newDetails);
       client.user.setActivity(r);
       prevTime = newTime;
