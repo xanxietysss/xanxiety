@@ -35,7 +35,7 @@ client.on('ready', async () => {
     .setAssetsLargeText('anxiety') //Text when you hover the Large image
 
     .setAssetsSmallText('ok') //Text when you hover the Small image
-    .addButton('percs', 'https://www.youtube.com/watch?v=72noANFOhdA')
+    .addButton('percs', 'https://youtu.be/pEWB_PqmNpE?si=bT3Zcxg2MjsTYg38')
     .addButton('xans', 'https://www.youtube.com/watch?v=Gbqa9n1XOes');
 
   client.user.setActivity(r);
