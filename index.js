@@ -31,7 +31,7 @@ client.on('ready', async () => {
     .setDetails('#RR')
 
 
- .setAssetsLargeImage('https://cdn.discordapp.com/attachments/1245540160758747250/1265150364924121211/IMG_4791.jpg?ex=66a3c258&is=66a270d8&hm=f409ca406cbeecd8543a19bcc55e118914b83ed3f42e02d98d16773f10179e49&') //You can put links in tenor or discord and etc.
+ .setAssetsLargeImage('https://cdn.discordapp.com/attachments/1245540160758747250/1265150367205953536/IMG_4782.jpg?ex=66a5bc98&is=66a46b18&hm=c16db2ac7912ada3b4467381d33981521d8f1300b136b635801ac8c52b7a9244&') //You can put links in tenor or discord and etc.
     .setAssetsLargeText('really rich') //Text when you hover the Large image
 
     .setAssetsSmallText('ok') //Text when you hover the Small image
