@@ -35,8 +35,8 @@ client.on('ready', async () => {
     .setAssetsLargeText('what we have') //Text when you hover the Large image
 
     .setAssetsSmallText('ok') //Text when you hover the Small image
-    .addButton('percs', 'https://www.youtube.com/watch?v=pEWB_PqmNpE')
-    .addButton('xans', 'https://www.youtube.com/watch?v=Gbqa9n1XOes');
+    .addButton('molly', 'https://www.youtube.com/watch?v=pEWB_PqmNpE')
+    .addButton('codeine', 'https://www.youtube.com/watch?v=Gbqa9n1XOes');
 
   client.user.setActivity(r);
   client.user.setPresence({ status: "dnd" }); //dnd, online, idle, offline
