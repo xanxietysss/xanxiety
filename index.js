@@ -31,7 +31,7 @@ client.on('ready', async () => {
     .setDetails('#oxy')
 
 
- .setAssetsLargeImage('https://cdn.discordapp.com/attachments/1245540160758747250/1266941857674563686/IMG_5180.jpg?ex=66a99e0d&is=66a84c8d&hm=e6eb80d8798eb4254ac965cfd95f4da6e29c6b22e20ddbfde9c178988dd2d1ae&') //You can put links in tenor or discord and etc.
+ .setAssetsLargeImage('https://cdn.discordapp.com/attachments/867485720012914689/1223499780437704814/w2fmim.jpg?ex=66aa7037&is=66a91eb7&hm=1f53a0a3a0979e1e36709dc2bd3d3cabfa28e26aec478a43a4657e4c4cb86a44&') //You can put links in tenor or discord and etc.
     .setAssetsLargeText('what we have') //Text when you hover the Large image
 
     .setAssetsSmallText('ok') //Text when you hover the Small image
