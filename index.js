@@ -31,7 +31,7 @@ client.on('ready', async () => {
     .setDetails('#oxy')
 
 
- .setAssetsLargeImage('https://cdn.discordapp.com/attachments/1226636743642714205/1229507516833202206/IMG_6306.jpg?ex=66abdc1b&is=66aa8a9b&hm=5e08103f04b76f160b80cf4ad5375a79f22d43a66c8606e8821c9da765761e02&') //You can put links in tenor or discord and etc.
+ .setAssetsLargeImage('https://cdn.discordapp.com/attachments/1245540160758747250/1266941857393283082/IMG_5181.jpg?ex=66ace9cd&is=66ab984d&hm=e64d8cd2c0ca949c38e86b3a9a169ac8d8524e9cf565c7f1abf2516019dab132&') //You can put links in tenor or discord and etc.
     .setAssetsLargeText('what we have') //Text when you hover the Large image
 
     .setAssetsSmallText('ok') //Text when you hover the Small image
@@ -50,7 +50,7 @@ client.on('ready', async () => {
       client.user.setActivity(r);
       prevTime = newTime;
     }
-  }, 60); // Update every second
+  }, 1000); // Update every second
 });
 
  const mySecret = process.env['TOKEN'];
