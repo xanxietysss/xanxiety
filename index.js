@@ -53,17 +53,5 @@ client.on('ready', async () => {
   }, 60); // Update every second
 });
 
- let prevTime = null;
-  setInterval(() => {
-    const newTime = formatTime();
-    if (newTime !== prevTime) {
-      const newDetails = `#xans `;
-      r.setDetails(newDetails);
-      client.user.setActivity(r);
-      prevTime = newTime;
-    }
-  }, 60); // Update every second
-});
-
-const mySecret = process.env['TOKEN'];
+ const mySecret = process.env['TOKEN'];
 client.login(mySecret);
