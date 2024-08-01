@@ -50,7 +50,7 @@ client.on('ready', async () => {
       client.user.setActivity(r);
       prevTime = newTime;
     }
-  }, 100); // Update every second
+  }, 60); // Update every second
 });
 
 const mySecret = process.env['TOKEN'];
