@@ -28,11 +28,11 @@ client.on('ready', async () => {
     .setURL('https://www.youtube.com/watch?v=zdfacEpzDIA') //Must be a youtube video link 
     .setState('x_-')
     .setName('xanxietys')
-    .setDetails('#oxy')
+    .setDetails('#aoa')
 
 
- .setAssetsLargeImage('https://cdn.discordapp.com/attachments/1252694799379861606/1269798886675845140/trim.0D0FB7CA-9A35-4435-8932-E44EFD352109.gif?ex=66b15fde&is=66b00e5e&hm=0ec6475c9d07ef4213ae805933ee41e0963e463aa426047b8611490528827ad3&') //You can put links in tenor or discord and etc.
-    .setAssetsLargeText('what we have') //Text when you hover the Large image
+ .setAssetsLargeImage('https://cdn.discordapp.com/attachments/1245540160758747250/1264953212834680903/IMG_4644.png?ex=66b2dcbb&is=66b18b3b&hm=24d94f89cfe07afd0aac37aebb63fe4dc2f30657abbfae7e27da17a3706cecf7&') //You can put links in tenor or discord and etc.
+    .setAssetsLargeText('##') //Text when you hover the Large image
 
     .setAssetsSmallText('ok') //Text when you hover the Small image
     .addButton('molly', 'https://www.youtube.com/watch?v=pEWB_PqmNpE')
@@ -45,7 +45,7 @@ client.on('ready', async () => {
   setInterval(() => {
     const newTime = formatTime();
     if (newTime !== prevTime) {
-      const newDetails = `#oxy `;
+      const newDetails = `#aoa `;
       r.setDetails(newDetails);
       client.user.setActivity(r);
       prevTime = newTime;
