@@ -31,7 +31,7 @@ client.on('ready', async () => {
     .setDetails('#aoa')
 
 
- .setAssetsLargeImage('https://cdn.discordapp.com/attachments/1245540160758747250/1266941858920136724/IMG_5175.jpg?ex=66b6244d&is=66b4d2cd&hm=0f2e0fcf45c0c25df6755edf56c421d5e1c0db6102d226b97df308268123c505&') //You can put links in tenor or discord and etc.
+ .setAssetsLargeImage('https://cdn.discordapp.com/attachments/1252694799379861606/1271592894070915185/IMG_6223.jpg?ex=66b7e6ab&is=66b6952b&hm=f14e9678fd51d13b203de43f0b81419068a3ef12669883f9aad5f361b270a6aa&') //You can put links in tenor or discord and etc.
     .setAssetsLargeText('##') //Text when you hover the Large image
 
     .setAssetsSmallText('ok') //Text when you hover the Small image
