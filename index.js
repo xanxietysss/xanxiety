@@ -28,10 +28,10 @@ client.on('ready', async () => {
     .setURL('https://www.youtube.com/watch?v=zdfacEpzDIA') //Must be a youtube video link 
     .setState('x_-')
     .setName('xanxietys')
-    .setDetails('#aoa')
+    .setDetails('#n(n)')
 
 
- .setAssetsLargeImage('https://cdn.discordapp.com/attachments/1252694799379861606/1271710998226534420/giphy_7.gif?ex=66beec29&is=66bd9aa9&hm=2383b122b43be87b6aa63af352aad385b8f57ca1270350d0921d63bc3bbd38b2&') //You can put links in tenor or discord and etc.
+ .setAssetsLargeImage('https://cdn.discordapp.com/attachments/1252694799379861606/1271710998226534420/giphy_7.gif?ex=66c0e669&is=66bf94e9&hm=3ebc30f006bc3b3a964f578c162c7f8e3cc36223563f86f7b7b1c9fcdfc150ab&') //You can put links in tenor or discord and etc.
     .setAssetsLargeText('##') //Text when you hover the Large image
 
     .setAssetsSmallText('ok') //Text when you hover the Small image
